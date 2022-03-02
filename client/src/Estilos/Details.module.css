@@ -1,0 +1,25 @@
+.container{
+    color: #EDEDED;
+    background-image:url("D:\Users\Usuario\Desktop\Programacion\PI Food\PI-Food-main\client\src\Estilos\DETAIL.jpg");
+    background-attachment: fixed;
+    /* background-position: center center; */
+    background-size:cover; 
+    background-repeat:no-repeat;
+    align-items:end;
+    padding: 145px;
+}
+
+.title{
+    color: #DA0037;
+    font-size: 40px;
+    margin-top: -50px;
+}
+
+.btn{
+    cursor: pointer;   
+    padding: 4px;
+    border-color: #EDEDED;
+    background-color: #171717;
+    color: #DA0037;
+    font-size: 15px;
+}

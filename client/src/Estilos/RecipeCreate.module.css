@@ -1,0 +1,145 @@
+.container {
+    align-items: center;
+    background-image: url('D:\Users\Usuario\Desktop\Programacion\PI Food\PI-Food-main\client\src\Estilos\CREATE.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-attachment: fixed;
+    background-size:cover; 
+    background-repeat:no-repeat;
+    min-height: 98.3vh;
+    min-width: 100vh;
+    
+} 
+
+.form {
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 700px;
+    padding: 20px;
+    width: 900px; 
+    box-shadow: 1px 1px 50px #000;
+    display: block;
+    
+}
+
+.head {
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #EDEDED;
+    text-shadow: 3px 3px 10px #000;
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;   
+    padding: 4px;
+    border-color: #EDEDED;
+    background-color: #171717;
+    color: #DA0037;
+    font-size: 15px;
+}
+
+.input_container {
+    height: 50px;
+    position: relative;
+    width: 50%;
+    margin:auto
+}
+
+
+.input {
+    background-color: #EDEDED;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #DA0037;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.divider{
+    padding: 15px;
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+.warn{
+    color:hsl(0, 94%, 43%)
+}
+.err {
+    color:hsl(0, 94%, 43%)
+}
+
+.submit {
+    background-color: #171717;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    text-align: center;
+    width: 100%;
+}
+  
+.submit:active {
+    background-color: #DA0037;
+    color: #171717;
+}
+
+.borrar{
+    display: flex;
+}
+
+.botonx {
+    border: 2px solid #e62222;
+    background: none;
+    padding: 3px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.1s;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    color: #f3eded;
+    z-index: 999;
+   
+}
+
+
+.botonx:hover {
+    color: #fff;
+}
+
+.botonx::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #e62222;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.botonx:hover::before {
+    height: 180%;
+}
+
+.nombres{
+    color: #EDEDED;
+}

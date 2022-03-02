@@ -1,0 +1,47 @@
+.card {
+    background-color: #171717;
+    margin: 50px;
+    margin-left: 100px;
+    margin-right: 120px;
+    margin-top: 150px;
+    border-radius: 15px;
+    border-color: #EDEDED;
+    /* box-shadow: 0 2px 50px rgba(0, 0, 0, 0.8); */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    width: 250px;
+    height: 350px;
+}
+
+.card:hover{
+    
+    transform: translateY(-3%);
+    transition: all 400ms ease;
+    
+} 
+
+.diet{
+    color: #EDEDED;
+    font-size: 17px; 
+    text-transform: uppercase;
+    padding: -5px 10px;
+}
+
+.img {
+    border-radius: 8px;
+    width: 90%;
+    margin-top: 5px;
+}
+
+.tag {
+    
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 0;
+    color: #ffffff;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: #171717;
+}
+

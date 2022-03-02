@@ -1,0 +1,65 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url("D:\Users\Usuario\Desktop\Programacion\PI Food\PI-Food-main\client\src\Estilos\LANDING.jpg");
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+}
+
+
+.btn2 {
+    font-family: 'LatoBlack';
+    font-size: 100px;
+    margin-top: 300px;
+    margin-left: 900px;
+    margin-bottom: 10px;
+    color: #ffffffd7;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.486);
+    cursor: default;
+}
+
+
+.btn1 {
+    border: 2px solid #DA0037;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    color: #f3eded;
+    margin-left: 900px;
+}
+
+
+.btn1:hover {
+    color: #DA0037;
+}
+
+.btn1::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #171717;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn1:hover::before {
+    height: 180%;
+}
+
