@@ -13,3 +13,11 @@ Desarrollo de un Single Page Application utilizando React para el Front y Redux 
 - Ver el detalle de cada receta en una carta personalizada
 
 - Crear una nueva receta con sus datos
+
+Algunas capturas del proyecto!:
+
+![Desktop Screenshot 2022 04 09 - 15 55 02 47](https://user-images.githubusercontent.com/84095731/162626030-6f82d267-afd7-429e-aaa9-e0e2237c4b8d.png)
+
+![Desktop Screenshot 2022 04 09 - 15 55 11 30](https://user-images.githubusercontent.com/84095731/162626031-e46f9ae1-cd04-4cc5-9b41-7a4a92946d27.png)
+
+![Captura](https://user-images.githubusercontent.com/84095731/162626069-6f28c33d-9972-490d-b6ce-78e9d3da4f04.JPG)
